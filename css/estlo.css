@@ -1,0 +1,255 @@
+html, body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+.topo{
+    text-align: center;
+    font-size: larger;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+.divtopo{
+    width: 1024px;
+    margin-left : 250px;
+    background-color: white;
+    height: 50px;
+}
+
+.divtopo .title{
+    position: absolute;
+    top: 10px;
+}
+
+.divtopo .tag{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+
+.title{
+    margin-bottom: -22px;
+    text-align: left;
+    font-size: large;
+}
+.title a{
+    color: black;
+    font-size: larger;
+}
+
+.tag{
+    text-align: right;
+    float: right;
+}
+
+.tag a{
+    color: grey;
+}
+.topo a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+span{
+    color: rgb(0, 110, 255);
+}
+
+.conteudo{
+    background-image: url('img-fundo.jpg');
+    height: 500px;
+}
+
+.conteudo h1{
+    color: white;
+    font-size: 40px;
+}
+
+.conteudo p{
+    color: white;
+}
+
+.caixa{
+    position: relative;
+    top: 100px;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #006342f3;
+    border: solid white 1px;
+    opacity: 80%;
+}
+
+.conteudo2{
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+}
+
+.textos{
+    color: rgb(107, 107, 107);
+    font-size: large;
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.quartos img{
+    width: 300px;
+    height: 180px;
+}
+
+.quartos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.quartos a{
+    text-decoration: none;
+}
+
+a{
+    color: grey;
+}
+
+.quartos p{
+    font-size: large;
+    border-bottom: solid rgba(0, 99, 66, 0.952) 2px;
+    padding-bottom: 20px;
+}
+
+.Sobre img{
+    width: 100px;
+    height: 120px;
+}
+
+.sobre1, .sobre2{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.imgS{
+    position: relative;
+    left: 400px;
+    bottom: 110px;
+}
+
+.sobre2{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.sobre3{
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 200px;
+    top: -120px;
+}
+
+.coluna1{
+    display: flex;
+}
+
+.imgS2{
+    position: relative;
+    left: 420px;
+    bottom: 150px;
+}
+
+.sobre4{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 200px;
+    position: relative;
+    top: -120px;
+}
+
+.imgS4{
+    position: relative;
+    left: 420px;
+    bottom: 100px;
+}
+
+.rodape{
+    background-color: rgba(0, 153, 102, 0.685);
+    color: white;
+}
+
+.rodape a{
+    color: white;
+    text-decoration: none;
+}
+
+.rodaped{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.fundo{
+    background-image: url('img\ fundo2.jpg');
+    height: 200px;
+}
+
+.quartosS{
+    display: flex;
+    margin-left: 330px;
+}
+
+.quartosS img{
+    width: 300px;
+    height: 180px;
+    padding: 3px;
+}
+
+.lista li{
+    text-align: center;
+}
+
+.org{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.org2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.lista{
+    width: 1200px;
+    margin-left: 190px;
+}
+
+.mover{
+    margin-right: 74px;
+}
+
+.solteiro, .familia, .casal{
+    padding-top: 100px;
+}
+
+.familia{
+    padding-bottom: 100px;
+}
+
+
